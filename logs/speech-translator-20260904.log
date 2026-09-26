@@ -1,0 +1,43 @@
+2026-09-04 16:05:36.051 +03:00 [INF] Microphone recording started
+2026-09-04 16:05:41.686 +03:00 [INF] Microphone recording stopped
+2026-09-04 16:05:41.687 +03:00 [ERR] Speech translation operation failed
+System.InvalidOperationException: NVIDIA API ayarları eksik. appsettings.json dosyasını kontrol edin.
+   at SpeechTranslatorApp.Services.SpeechService.TranscribeAsync(Byte[] audio, CancellationToken cancellationToken) in C:\Users\ali\OneDrive\Desktop\SpeechTranslatorApp\src\Services\SpeechService.cs:line 24
+   at SpeechTranslatorApp.ViewModels.MainViewModel.StopRecordingAsync() in C:\Users\ali\OneDrive\Desktop\SpeechTranslatorApp\src\ViewModels\MainViewModel.cs:line 52
+2026-09-04 16:07:23.327 +03:00 [INF] Microphone recording started
+2026-09-04 16:07:26.212 +03:00 [INF] Microphone recording stopped
+2026-09-04 16:07:26.753 +03:00 [ERR] Speech translation operation failed
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 404 (Not Found).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at SpeechTranslatorApp.Services.SpeechService.TranscribeAsync(Byte[] audio, CancellationToken cancellationToken) in C:\Users\ali\OneDrive\Desktop\SpeechTranslatorApp\src\Services\SpeechService.cs:line 36
+   at SpeechTranslatorApp.ViewModels.MainViewModel.StopRecordingAsync() in C:\Users\ali\OneDrive\Desktop\SpeechTranslatorApp\src\ViewModels\MainViewModel.cs:line 52
+2026-09-04 16:07:30.878 +03:00 [INF] Microphone recording started
+2026-09-04 16:07:36.815 +03:00 [INF] Microphone recording stopped
+2026-09-04 16:07:37.048 +03:00 [ERR] Speech translation operation failed
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 404 (Not Found).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at SpeechTranslatorApp.Services.SpeechService.TranscribeAsync(Byte[] audio, CancellationToken cancellationToken) in C:\Users\ali\OneDrive\Desktop\SpeechTranslatorApp\src\Services\SpeechService.cs:line 36
+   at SpeechTranslatorApp.ViewModels.MainViewModel.StopRecordingAsync() in C:\Users\ali\OneDrive\Desktop\SpeechTranslatorApp\src\ViewModels\MainViewModel.cs:line 52
+2026-09-04 16:09:00.107 +03:00 [INF] Microphone recording started
+2026-09-04 16:09:04.444 +03:00 [INF] Microphone recording stopped
+2026-09-04 16:09:05.088 +03:00 [ERR] Speech translation operation failed
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 404 (Not Found).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at SpeechTranslatorApp.Services.SpeechService.TranscribeAsync(Byte[] audio, CancellationToken cancellationToken) in C:\Users\ali\OneDrive\Desktop\SpeechTranslatorApp\src\Services\SpeechService.cs:line 36
+   at SpeechTranslatorApp.ViewModels.MainViewModel.StopRecordingAsync() in C:\Users\ali\OneDrive\Desktop\SpeechTranslatorApp\src\ViewModels\MainViewModel.cs:line 52
+2026-09-04 16:11:17.769 +03:00 [INF] Microphone recording started
+2026-09-04 16:11:22.633 +03:00 [INF] Microphone recording stopped
+2026-09-04 16:11:23.187 +03:00 [ERR] NVIDIA API returned HTTP 404: 404 page not found
+
+2026-09-04 16:11:23.189 +03:00 [ERR] Speech translation operation failed
+System.InvalidOperationException: NVIDIA API isteği reddetti (404 Not Found). API anahtarını, modeli ve endpoint'i kontrol edin.
+   at SpeechTranslatorApp.Services.SpeechService.TranscribeAsync(Byte[] audio, CancellationToken cancellationToken) in C:\Users\ali\OneDrive\Desktop\SpeechTranslatorApp\src\Services\SpeechService.cs:line 53
+   at SpeechTranslatorApp.ViewModels.MainViewModel.StopRecordingAsync() in C:\Users\ali\OneDrive\Desktop\SpeechTranslatorApp\src\ViewModels\MainViewModel.cs:line 52
+2026-09-04 17:50:21.299 +03:00 [INF] Microphone recording started
+2026-09-04 17:50:27.703 +03:00 [INF] Microphone recording stopped
+2026-09-04 17:50:28.375 +03:00 [ERR] NVIDIA API returned HTTP 404: 404 page not found
+
+2026-09-04 17:50:28.375 +03:00 [ERR] Speech translation operation failed
+System.InvalidOperationException: NVIDIA API isteği reddetti (404 Not Found). API anahtarını, modeli ve endpoint'i kontrol edin.
+   at SpeechTranslatorApp.Services.SpeechService.TranscribeAsync(Byte[] audio, CancellationToken cancellationToken) in C:\Users\ali\OneDrive\Desktop\SpeechTranslatorApp\src\Services\SpeechService.cs:line 53
+   at SpeechTranslatorApp.ViewModels.MainViewModel.StopRecordingAsync() in C:\Users\ali\OneDrive\Desktop\SpeechTranslatorApp\src\ViewModels\MainViewModel.cs:line 52
